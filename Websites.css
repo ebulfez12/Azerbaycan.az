@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#All-wrapper {
+    width: 87%;
+    background-color: rgb(231, 231, 231, 0.8);
+    margin: 0 auto;
+    padding: 30px;
+}
+#display{
+    display: flexbox;
+    width: 56%;
+    float: left;
+}
+#display #news{
+    position: relative;
+    z-index: 1;
+}
+#display #news .title{
+    padding: 15PX;
+}
+#display #news .title h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img{
+    margin-bottom: 10px;
+}
+.img img{
+    width: 600px;
+    height: 450px;
+    border-radius: 20pxs;
+}
+.writes{
+    text-align: justify;
+    font-size: 20px;
+}
+.telegram-post-AzadIranTelegram-14311{
+    float: left;
+}
+@media screen and (max-width: 988px){
+    #adviad-src-right{
+        display: none;
+    }
+    .img img{
+        
+    width: -webkit-fill-available;
+    height: 350px;
+    }
+    #display{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/html/img/Light.webp);
+}
+
+#All-wrapper {
+    min-height: calc(110vh - 10vh);
+}
+
+#All-wrapper {
+    width: 87%;
+    background-color: rgb(231, 231, 231, 0.8);
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#Topbar {
+    background: rgb(209, 209, 209);
+    height: 55px;
+    display: flex;
+}
+
+#nav {
+    margin: 16px auto;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+#nav ul li {
+    text-indent: 18px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon {
+    margin: auto;
+    display: flex;
+}
+
+.icon p {
+    margin: 15px 2px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon img {
+    width: 50px;
+}
+
+.container {
+    padding: 8px;
+    border-bottom: 2px solid;
+}
+
+.container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+.display {
+    display: block;
+    padding: 50px;
+    text-align: center;
+}
+
+.display .news {
+    display: inline-table;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+.display .news img {
+    border-radius: 10px;
+    width: 200px;
+}
+
+.display .news img:hover {
+    transform: scale(1.1);
+}
+
+.display .news a {
+    text-decoration: none;
+    color: black;
+}
+
+.news p {
+    text-align: center;
+    width: 226px;
+}
+
+.footer {
+    border-radius: 20px;
+    background-color: silver;
+    min-height: 200px;
+}
+
+.footer .title {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer2 {
+    width: 520px;
+    margin: 25px auto;
+}
+
+.footer2 ul {
+    list-style: none;
+}
+
+.footer2 ul li {
+    margin-bottom: 10px;
+    display: inline-flex;
+    text-indent: 30px;
+}
+
+@media screen and (max-width: 677px){
+    .footer2{
+        display: inline;
+        padding: 10px;
+    }
+}
